@@ -1,6 +1,6 @@
-# Postive Vibrations
+# Positive Vibrations
 
-a cli downloader for the weekly KEXP positive vibrations show (or any show) for offline listening
+a cli downloader for the weekly KEXP Positive Vibrations show (or any show) for offline listening
 
 ```
 Usage: node index.js [options]
