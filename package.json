@@ -1,6 +1,6 @@
 {
   "name": "positive-vibrations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "start": "node index.js",
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "minimist": "^1.2.0",
     "node-fetch": "^2.3.0"
   }
 }
