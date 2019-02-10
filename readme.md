@@ -2,8 +2,10 @@
 
 a cli downloader for the weekly KEXP Positive Vibrations show (or any show) for offline listening
 
+## Usage
+
 ```
-Usage: node index.js [options]
+node index.js [options]
 
 Options:
 --dir           Path to download file || ./downloads
@@ -13,4 +15,16 @@ Options:
 --playlistPath  Optional path to M3U file to append
 --version       Print out which version is running
 --help          Print this help message
+```
+
+## Examples
+
+Positive Vibrations:
+```
+node index.js --title positive-vibrations --hour 17 --weekday 1
+```
+
+Pacific Notions:
+```
+node index.js --title pacific-notions --hour 14 --weekday 7
 ```
